@@ -1,4 +1,4 @@
-# Dotfiles
+# My personal vscode and zsh .dotfiles 💻
 
 This repository contains my personal settings for VSCode and the zsh 👨‍💻.
 
