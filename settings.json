@@ -1,0 +1,89 @@
+{
+    /// VSCode behaviour
+    "workbench.startupEditor": "newUntitledFile",
+    "git.autofetch": true,
+    "breadcrumbs.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.bracketPairColorization.enabled": true,
+    "git.mergeEditor": true,
+
+    /// Look & Feel
+    "editor.fontSize": 13,
+    "debug.console.fontSize": 13,
+    "markdown.preview.fontSize": 13,
+    "terminal.integrated.fontSize": 13,
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+    "terminal.integrated.fontFamily": "Fira Code",
+    "vsicons.dontShowNewVersionMessage": true,
+
+    "editor.fontLigatures": true,
+    "editor.minimap.enabled": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "window.zoomLevel": 1,
+    "workbench.tree.indent": 20,
+
+    /// Formatting
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.tabWidth": 4,
+    "html.format.wrapLineLength": 80,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "editor.formatOnSave": true,
+
+    "editor.rulers": [120],
+
+    /// Discord
+    "discord.detailsDebugging": "🐛 Debugging `{file_name}`",
+    "discord.detailsEditing": "👨‍💻 Editing `{file_name}`",
+    "discord.detailsIdling": "💤 Idling",
+    "discord.largeImage": "👨‍💻 Editing a `{LANG}` file",
+    "discord.largeImageIdling": "💤 Idling",
+    "discord.lowerDetailsDebugging": "🐛 Debugging: `{workspace}`",
+    "discord.lowerDetailsEditing": "📂 Workspace: ******",
+    "discord.lowerDetailsNoWorkspaceFound": "📂 No workspace",
+    "discord.lowerDetailsIdling": "💤 Idling",
+
+    /// Gitlense
+    "gitlens.defaultDateFormat": null,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.hovers.enabled": false,
+    "gitlens.advanced.messages": {
+        "suppressGitMissingWarning": true
+    },
+
+    /// Dart
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [80],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "dart.openDevTools": "flutter",
+    "dart.debugExternalPackageLibraries": false,
+    "dart.debugSdkLibraries": false,
+
+    "dart.previewFlutterUiGuides": true,
+    "editor.inlineSuggest.enabled": true,
+
+    /// Appwrite
+    "appwrite.projects": [
+        {
+            "endpoint": "https://localhost/v1",
+            "projectId": "62e3c74900be2bb82aa8",
+            "secret": "09a04536d5bf06cb77798998964b8e90e92459923f7d87a8fad95a4f83a3fc952545f3a031552bbfd16d1086d106a8514a4c3328d6a46e55b4067e286d10ed06fab8a963ae0656099f6524cd51c35adba56065291fa9617d51f11dc9dea01de628591e59371447009f3386534106eab3258bdbeaca7aad24a7ef39f6da6aa14a",
+            "nickname": "xCollectLocal",
+            "selfSigned": true
+        }
+    ],
+    "appwrite.activeProjectId": "62e3c74900be2bb82aa8"
+}
