@@ -83,6 +83,18 @@ git config --global user.email < EMAIL > &&
 git config --global --list
 ```
 
+## Setup FiraCode as Editor font
+
+For Windows, Linux ... checkout the [FiraCode Guide](https://github.com/tonsky/FiraCode/wiki/Installing).
+For macOS follow these steps:
+
+1. Download the TTF folder from [here](https://github.com/tonsky/FiraCode/releases)
+2. Right click and select `Open`
+3. Select `Install Font`
+
+To use FiraCode in VSCode checkout the guide [here](https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions) or
+directly use my `settings.json`.
+
 ## Finale remarks
 
 The full VSCode `settings.json` and full `.zshrc` can be found in the root of this git repository.
