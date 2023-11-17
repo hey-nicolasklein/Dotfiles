@@ -122,7 +122,9 @@ source /Users/nicolas/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-high
 
 # include Z, yo
 . ~/z.sh
-export PATH=$PATH:/Users/nicolas/.nexustools
+
+# export path
+export PATH="$PATH:/Users/nicolas/development/flutterSDK/flutter/bin":"$HOME/.pub-cache/bin"
 
 
 export NVM_DIR="$HOME/.nvm"
